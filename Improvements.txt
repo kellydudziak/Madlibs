@@ -1,0 +1,2 @@
+Import story from file.
+Array of input variables to minimize copy/pasting.
