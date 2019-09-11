@@ -22,10 +22,9 @@ public class Madlibs {
 	private static void getInput() {
 		Scanner keyboard = new Scanner(System.in);
 		
-		// can you rearrange so it's all prompts and then all parsing?
 		System.out.print("Enter a person's name: ");
 		personsName = keyboard.nextLine();
-    System.out.print("Enter an adjective: ");
+    		System.out.print("Enter an adjective: ");
 		adj2 = keyboard.nextLine();
 		System.out.print("Enter a number: ");
 		num1 = Integer.parseInt(keyboard.nextLine());
@@ -51,16 +50,16 @@ public class Madlibs {
 	
 	private static void printStory() {
 		System.out.println(personsName + " was feeling very " +
-				adj1 + " today, because today they turned " +
-				num1 + " years old! In just a few minutes, " +
-				num2 + " of their friends would be coming to their " +
-				place + " for their birthday party. The " +
-				place + " was covered in " +
-				adj2 + " " + noun + " decorations and their birthday " +
-				food + " was waiting on the table. As soon as their friends came, they would sing '" +
-				songTitle + "' to them and everyone would " +
-				verb + " the " + food + "! It was going to be a " +
-				adj3 + " day.");
+			adj1 + " today, because today they turned " +
+			num1 + " years old! In just a few minutes, " +
+			num2 + " of their friends would be coming to their " +
+			place + " for their birthday party. The " +
+			place + " was covered in " +
+			adj2 + " " + noun + " decorations and their birthday " +
+			food + " was waiting on the table. As soon as their friends came, they would sing '" +
+			songTitle + "' to them and everyone would " +
+			verb + " the " + food + "! It was going to be a " +
+			adj3 + " day.");
 			
 	}
 }
